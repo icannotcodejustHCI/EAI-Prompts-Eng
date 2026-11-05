@@ -4,6 +4,8 @@ English-language version of the [Korean site](https://icannotcodejusthci.github.
 
 The case data is maintained in `cases.json`. Cases and specialties can be added or deleted through the page's admin panel. Prompt sharing and feedback use email drafts opened through `mailto:` links.
 
+The mobile app download button opens the English landing page at `mobile/`. That page preserves the Korean landing page's design and links to the official English web listings for UpToDate Expert AI on the App Store and Google Play. Native store apps may use the device or account's own language and region settings.
+
 ## Deployment
 
 1. Upload `index.html`, `cases.json`, `logo.png`, `favicon.png`, `favicon.svg`, and `README.md` to the `EAI-Prompts-Eng` repository.
