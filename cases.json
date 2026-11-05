@@ -1,0 +1,1055 @@
+{
+  "specialties": [
+    {
+      "id": "cardio",
+      "name": "Cardiology"
+    },
+    {
+      "id": "pulm",
+      "name": "Pulmonology"
+    },
+    {
+      "id": "gi",
+      "name": "Gastroenterology"
+    },
+    {
+      "id": "endo",
+      "name": "Endocrinology"
+    },
+    {
+      "id": "nephro",
+      "name": "Nephrology"
+    },
+    {
+      "id": "id",
+      "name": "Infectious Diseases"
+    },
+    {
+      "id": "rheum",
+      "name": "Rheumatology"
+    },
+    {
+      "id": "hemonc",
+      "name": "Hematology and Oncology"
+    },
+    {
+      "id": "em",
+      "name": "Emergency Medicine"
+    },
+    {
+      "id": "fm",
+      "name": "Family Medicine"
+    },
+    {
+      "id": "neuro",
+      "name": "Neurology"
+    },
+    {
+      "id": "peds",
+      "name": "Pediatrics"
+    },
+    {
+      "id": "obgyn",
+      "name": "Obstetrics and Gynecology"
+    },
+    {
+      "id": "gyn-onc",
+      "name": "Obstetrics and Gynecology | Gynecologic Oncology"
+    },
+    {
+      "id": "surg",
+      "name": "Surgery"
+    },
+    {
+      "id": "psych",
+      "name": "Psychiatry"
+    },
+    {
+      "id": "general",
+      "name": "General"
+    },
+    {
+      "id": "nursing",
+      "name": "Nursing"
+    },
+    {
+      "id": "pharm",
+      "name": "Pharmacy"
+    }
+  ],
+  "cases": [
+    {
+      "specialtyId": "em",
+      "vignette": "A 68-year-old man with a history of HTN. Sudden-onset severe chest pain lasting 40 minutes, radiating to the upper back. ECG shows mild STE in aVR/V1 and STD in V5–V6; TnI 0.12 ng/mL. V/S: BP Rt 180/95 mmHg, Lt 150/85 mmHg, HR 98/min, SpO2 96% (room air)",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "What is the most likely diagnosis, and what immediate management is required?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "If an iodinated contrast allergy is confirmed, how should imaging and treatment proceed?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What anti-impulse therapy strategy is recommended? Explain, including the first-line agent and dosing."
+        }
+      ],
+      "title": "Emergency Medicine - Sudden Chest Pain and a Blood Pressure Difference Between Arms"
+    },
+    {
+      "specialtyId": "cardio",
+      "vignette": "A patient with malignant lymphoma has frequent ventricular arrhythmias. A chemotherapy regimen including doxorubicin is being considered.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Can chemotherapy including doxorubicin be administered to this patient?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "If doxorubicin must be used, are there guidelines on cardioprotective agents such as dexrazoxane?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What alternative chemotherapy regimens have lower cardiotoxicity than doxorubicin?"
+        }
+      ],
+      "title": "Cardiology - Doxorubicin Treatment in a Patient With Ventricular Arrhythmias"
+    },
+    {
+      "specialtyId": "pulm",
+      "vignette": "A 54-year-old man on HD for ESRF, with normal EF on TTE. CT of the thorax shows worsening LLL consolidation and bilateral pleural effusions. Pleural fluid: protein ratio 0.54, LDH ratio 0.54. Serum albumin 3.9 g/dL, pleural fluid albumin 2.2 g/dL (serum-to-pleural albumin gradient 1.7 g/dL)",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How should this pleural effusion be interpreted?"
+        }
+      ],
+      "title": "Pulmonology - Pulmonary Consolidation and Bilateral Pleural Effusions in a Patient on Hemodialysis"
+    },
+    {
+      "specialtyId": "pulm",
+      "vignette": "Severe ARDS (P/F ~90) and active candidemia following bowel perforation. Source control has been performed, and an echinocandin is being administered.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Is corticosteroid use appropriate for ARDS in this patient?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "Is echinocandin dose adjustment necessary in a patient with combined organ failure?"
+        }
+      ],
+      "title": "Pulmonology - Severe ARDS With Active Candidemia"
+    },
+    {
+      "specialtyId": "gi",
+      "vignette": "A patient with HBV cirrhosis has recurrence 18 months after right hepatectomy for HCC. CT shows a 3.2 cm arterially enhancing lesion with washout in segment IVb and two 1.5 cm satellite nodules in the left lobe. No macrovascular invasion or extrahepatic spread. Child-Pugh A6, ECOG 0, Plt 95 K, mild splenomegaly, patent PV, AFP 480 ng/mL",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "What are the selection criteria and supporting evidence for repeat resection, ablation, and TACE?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "Draft an A/P for a surgical consult, including the problem list and rationale for treatment selection."
+        }
+      ],
+      "title": "Gastroenterology - Recurrent Hepatocellular Carcinoma After Hepatectomy"
+    },
+    {
+      "specialtyId": "nephro",
+      "vignette": "A 65-year-old man, PR3-ANCA positive, Cr 5.8 mg/dL, RBC casts, proteinuria 1.2 g/day, with DAH suspected due to declining Hb. Currently oliguric.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Is plasma exchange necessary?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "If TPE is to be performed, which complications should the night-duty nurse closely monitor?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What should be checked every 10–15 minutes during TPE?"
+        }
+      ],
+      "title": "Nephrology - PR3-ANCA-Positive Kidney Injury and Suspected Alveolar Hemorrhage"
+    },
+    {
+      "specialtyId": "endo",
+      "vignette": "A 62-year-old woman with T2DM, BMI 30, CKD stage 3a, and NAFLD. HbA1c 8.7%; peripheral edema developed while taking metformin and pioglitazone.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Considering CV/renal benefits and fluid-overload risk, should pioglitazone be switched to an SGLT2 inhibitor?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What glycemic efficacy can be expected from an SGLT2 inhibitor in CKD stage 3a, and is additional treatment needed to reach the HbA1c target?"
+        }
+      ],
+      "title": "Endocrinology - Changing Medication in a Patient With Diabetes and CKD"
+    },
+    {
+      "specialtyId": "id",
+      "vignette": "A patient is receiving IV amikacin and imipenem for M. abscessus pulmonary NTM infection. On day 14, Cr increased from 0.7 to 2.4 mg/dL, and the amikacin trough is above 10 µg/mL.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How should antimicrobial therapy be adjusted, and what should the overall management plan be?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "If amikacin must be discontinued, what are the alternative options for an M. abscessus regimen?"
+        },
+        {
+          "label": "Additional Question",
+          "text": "How should amikacin dosing be adjusted given the supratherapeutic trough and rising Cr?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What target trough/peak levels and monitoring plan should be used for subsequent dosing?"
+        }
+      ],
+      "title": "Infectious Diseases - Worsening Renal Function During Amikacin Treatment"
+    },
+    {
+      "specialtyId": "fm",
+      "vignette": "A 45-year-old man with fever, cough, and SOB for 5 days. CXR shows RLL consolidation.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Explain the diagnosis of CAP, CURB-65 assessment, and empiric antibiotic options."
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "If SOB begins to worsen on the ward, which vital sign assessments and interventions should nursing staff prioritize?"
+        }
+      ],
+      "title": "Family Medicine - Fever, Cough, Dyspnea, and Pulmonary Consolidation"
+    },
+    {
+      "specialtyId": "general",
+      "vignette": "A patient previously receiving Lantus 16 U and Apidra 6-6-6 is now NPO. AM glucose 138 mg/dL. The attending physician has ordered Apidra to be discontinued and Lantus to be continued.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Can insulin be administered while the patient is NPO?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "If glucose rises while the patient is NPO, should an insulin drip be started or correctional insulin be used?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "If an insulin drip or correctional insulin is used for elevated glucose while the patient is NPO, how should the initial dose be calculated?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What is the rationale for continuing Lantus while the patient is NPO?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "When continuing Lantus while the patient is NPO, how should the dose be adjusted if renal impairment is also present?"
+        }
+      ],
+      "title": "General - Insulin Management in a Patient Who Is NPO"
+    },
+    {
+      "specialtyId": "surg",
+      "vignette": "A 45-year-old man on POD#0 after laparoscopic adrenalectomy for pheochromocytoma. BP 80/50 mmHg, HR 115/min, RR 20/min, T 36.8°C, U/O below 10 cc/hr, CVP 3. Impression: post-op hypotension and oliguria, with suspected pre-renal AKI due to catecholamine withdrawal.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "As the night-duty resident, what initial management and workup should you perform?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "If hypotension persists despite adequate fluid resuscitation, what is the next step, and which vasopressor should be considered first?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "Which red flag findings should be reported immediately to the attending physician?"
+        }
+      ],
+      "title": "Surgery - Hypotension and Oliguria Immediately After Pheochromocytoma Surgery"
+    },
+    {
+      "specialtyId": "obgyn",
+      "vignette": "A woman at 40 weeks of pregnancy presents with sudden abdominal pain. Weight gain of 3 kg over 2 weeks, BP 160/100 mmHg, HR 82/min. History of chronic poorly controlled HTN; urine protein 2+.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How should this patient be managed?"
+        }
+      ],
+      "title": "Obstetrics and Gynecology - Hypertension, Proteinuria, and Abdominal Pain at Term"
+    },
+    {
+      "specialtyId": "gyn-onc",
+      "vignette": "A 63-year-old woman with recurrent high-grade serous ovarian cancer. She presents with abdominal distension 8 months after debulking surgery and completion of 6 cycles of carboplatin/paclitaxel. CT shows peritoneal carcinomatosis and moderate ascites; cytology is positive. CA-125 620 U/mL, nadir 12 U/mL, BRCA wild type, HRD pending, ECOG 1.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "What is the optimal systemic treatment strategy, and which factors determine regimen selection?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How would the regimen differ in platinum-resistant disease with a PFI of less than 6 months?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What maintenance options are available after a response, and how do the as-yet-unconfirmed HRD/BRCA results affect the choice?"
+        }
+      ],
+      "title": "Gynecologic Oncology - Recurrent High-Grade Serous Ovarian Cancer"
+    },
+    {
+      "specialtyId": "peds",
+      "vignette": "A 5-year-old girl (16 kg) who underwent Kasai portoenterostomy in infancy for biliary atresia, with cirrhosis and portal hypertension. She presents with her second episode of hematemesis and melena within 3 months. Previous EGD showed grade III esophageal varices, and band ligation was performed. Examination: pallor, splenomegaly, mild ascites. V/S: BP 85/50 mmHg, HR 140/min. Labs: Hb 6.8 g/dL, Plt 70 K, INR 1.6, total bilirubin 4.2 mg/dL, albumin 2.8 g/dL.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "As the pediatrician managing this child’s recurrent variceal bleeding, what are the acute management options?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What are the secondary prophylaxis options for this child’s recurrent variceal bleeding?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "Is a non-selective beta-blocker appropriate for secondary prophylaxis in this child? What evidence is available in children?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "When should liver transplant evaluation be initiated for this child?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How do TIPS and surgical shunts compare, considering this child’s body size?"
+        }
+      ],
+      "title": "Pediatrics - Recurrent Variceal Bleeding in a Child With Biliary Atresia"
+    },
+    {
+      "specialtyId": "nursing",
+      "vignette": "A 71-year-old man (61 kg), POD#1 after sigmoid colectomy, with U/O of 10 cc/hr persisting for 8 hours.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "As the nurse caring for this patient, what should you report, and what interventions should you anticipate?"
+        }
+      ],
+      "title": "Nursing - Persistent Oliguria After Colectomy"
+    },
+    {
+      "specialtyId": "nursing",
+      "vignette": "POD#1–2 after colectomy, receiving prophylactic enoxaparin. aPTT is slightly prolonged, but there is no bleeding, and the attending physician has ordered treatment to continue.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "What possible causes should be considered for the prolonged aPTT?"
+        }
+      ],
+      "title": "Nursing - Prolonged aPTT During Prophylactic Enoxaparin Use"
+    },
+    {
+      "specialtyId": "nursing",
+      "vignette": "A 52-year-old woman undergoing emergency department triage. Fever of 39.0°C for 4 days, with large-volume hematemesis and epistaxis.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "As the triage nurse, what actions can you take immediately?"
+        }
+      ],
+      "title": "Nursing - An Emergency Department Patient With Fever, Hematemesis, and Epistaxis"
+    },
+    {
+      "specialtyId": "pharm",
+      "vignette": "An order for amphotericin B bladder irrigation.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Draft an order for amphotericin B bladder irrigation, including dosing."
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "Write a detailed, step-by-step preparation and administration protocol for amphotericin B bladder irrigation."
+        }
+      ],
+      "title": "Pharmacy - Prescribing Amphotericin B Bladder Irrigation"
+    },
+    {
+      "specialtyId": "pharm",
+      "vignette": "A 79-year-old woman with HTN, DM, OA, insomnia, and CKD stage 3b (eGFR 38 mL/min/1.73m²), taking 14 medications. HbA1c 6.9%, BP 128/72 mmHg. Two falls in the past 3 months; she reports dizziness on standing.\nCurrent medications: amlodipine 10 mg qd · losartan 100 mg qd · hydrochlorothiazide 25 mg qd · metformin 1,000 mg bid · glimepiride 4 mg qd · ibuprofen 400 mg tid prn · tramadol 50 mg tid prn · zolpidem 10 mg qhs · alprazolam 0.25 mg qhs prn · amitriptyline 10 mg qhs · omeprazole 20 mg qd (for 14 months) · aspirin 100 mg qd (primary prevention) · calcium carbonate 500 mg + vitamin D · diphenhydramine 25 mg prn",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Identify potentially inappropriate medications and opportunities to optimize the regimen."
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "Given an eGFR of 38 mL/min/1.73m², which medications require renal dose adjustment or discontinuation?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "Prioritize deprescribing and provide a step-by-step tapering plan for medications that need to be discontinued."
+        }
+      ],
+      "title": "Pharmacy - Falls and Dizziness in an Older Patient With Polypharmacy"
+    },
+    {
+      "specialtyId": "pharm",
+      "vignette": "Treatment of triple-negative breast cancer.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "What factors should be considered when choosing between Trodelvy and Enhertu?"
+        }
+      ],
+      "title": "Pharmacy - Choosing Trodelvy or Enhertu for Triple-Negative Breast Cancer"
+    },
+    {
+      "specialtyId": "em",
+      "vignette": "A man in his 30s with recurrent dizziness and unilateral headaches. Today, these were accompanied by slurred speech and a tendency to veer to one side for 15 minutes. Symptoms and neurological abnormalities had resolved by presentation, and non-contrast brain CT is normal.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Can the patient be discharged with a diagnosis of peripheral dizziness? Can HINTS be applied when the patient is currently asymptomatic, and how should vascular imaging, MRI, and neurological evaluation be prioritized?"
+        }
+      ],
+      "title": "Emergency Medicine - Resolved Dizziness and a Normal CT"
+    },
+    {
+      "specialtyId": "em",
+      "vignette": "A 62-year-old patient on day 7 after abdominal surgery. Confirmed PE, SBP 112 mmHg, tachycardia and increasing oxygen requirements, with RV dysfunction and elevated troponin. No active bleeding, but recent surgery confers a high bleeding risk.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Should treatment begin with anticoagulation and close monitoring, or should reperfusion therapy be considered? How should signs of deterioration requiring treatment escalation be weighed against bleeding risk?"
+        }
+      ],
+      "title": "Emergency Medicine - PE With Preserved Blood Pressure but Right Ventricular Strain"
+    },
+    {
+      "specialtyId": "em",
+      "vignette": "A 78-year-old patient taking apixaban for AF. The patient fell and hit their head, but GCS is 15, with no neurological changes or persistent vomiting. Initial CT is negative, and a caregiver is available to monitor the patient at home.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Does anticoagulant use alone warrant repeat CT or admission? What conditions allow discharge, and what exceptions require further observation?"
+        }
+      ],
+      "title": "Emergency Medicine - Minor Head Trauma in a Patient Taking an Anticoagulant"
+    },
+    {
+      "specialtyId": "cardio",
+      "vignette": "A 74-year-old patient with a history of CKD and CAD, admitted for pneumonia with tachycardia and anemia. hs-troponin is rising without chest pain, and ECG shows pre-existing LVH and nonspecific ST–T changes.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you distinguish type 1 MI, type 2 MI, and acute myocardial injury?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What additional evidence is needed before starting antiplatelet therapy, anticoagulation, or coronary evaluation?"
+        }
+      ],
+      "title": "Cardiology - Elevated Troponin in a Patient With Pneumonia"
+    },
+    {
+      "specialtyId": "cardio",
+      "vignette": "3 weeks after DES placement for ACS, a patient taking aspirin and clopidogrel develops melena. Endoscopic hemostasis of a bleeding ulcer was successful, and the patient is now hemodynamically stable.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How should the two antiplatelet agents be continued, withheld, or resumed? What joint cardiology–gastroenterology plan would account for the risks of rebleeding and early stent thrombosis?"
+        }
+      ],
+      "title": "Cardiology - Gastrointestinal Bleeding After Recent Coronary Stent Placement"
+    },
+    {
+      "specialtyId": "pulm",
+      "vignette": "A patient with a COPD exacerbation has a pH of 7.26 and PaCO₂ of 74 mmHg. 1 hour after starting NIV, tachypnea persists and the pH is 7.24. The patient is drowsy but cooperative when awakened and can clear secretions.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Should NIV be adjusted with continued observation, or should the patient be intubated? What trends in response and criteria for NIV failure matter more than a single ABG?"
+        }
+      ],
+      "title": "Pulmonology - Can NIV Be Continued in This COPD Exacerbation?"
+    },
+    {
+      "specialtyId": "pulm",
+      "vignette": "Fever persists after 48 hours of pneumonia treatment. Pleural fluid pH is 7.24, glucose 45 mg/dL, and LDH 1,200 IU/L. Ultrasound shows septations, and the Gram stain is negative.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Is it appropriate to continue antibiotics alone because the pH is above 7.2? How should the need for drainage be determined?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What is the next treatment if residual disease remains after pleural fluid drainage?"
+        }
+      ],
+      "title": "Pulmonology - Borderline Pleural Fluid pH and Septations"
+    },
+    {
+      "specialtyId": "pulm",
+      "vignette": "A patient receiving prophylactic LMWH after gynecologic cancer surgery develops pleuritic chest pain and small-volume hemoptysis. CT shows a pleural-based wedge-shaped opacity, but no central pulmonary artery thrombus is visible, and lower-extremity ultrasound is also negative.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you distinguish pneumonia, hemorrhage, and pulmonary infarction?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How would you verify the adequacy of the imaging protocol and peripheral vessel assessment, and decide on further testing and anticoagulation?"
+        }
+      ],
+      "title": "Pulmonology - Pulmonary Infarction Without a Visible Thrombus?"
+    },
+    {
+      "specialtyId": "gi",
+      "vignette": "A patient has acute gallstone pancreatitis. Bilirubin decreases from an initial 3.8 mg/dL to 1.7 the following day. The bile duct is mildly dilated, but no definite stone is seen. There is no fever, hypotension, or evidence of cholangitis.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Which is appropriate: urgent ERCP, EUS/MRCP, or observation?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How does the timing of cholecystectomy vary with the severity of pancreatitis?"
+        }
+      ],
+      "title": "Gastroenterology - Does Gallstone Pancreatitis Require ERCP Today?"
+    },
+    {
+      "specialtyId": "gi",
+      "vignette": "A patient with cirrhosis and ascites has rising creatinine despite treatment of an infection and initial volume replacement. Oxygen requirements and pulmonary congestion increase during albumin administration, and urine sediment contains a small number of granular casts.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you distinguish HRS-AKI, tubular injury, and hemodynamic causes?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How would you assess the appropriateness and risks of additional albumin and vasoconstrictors in light of the patient's current volume status?"
+        }
+      ],
+      "title": "Gastroenterology - AKI and New Pulmonary Congestion in a Patient With Cirrhosis"
+    },
+    {
+      "specialtyId": "gi",
+      "vignette": "A patient with UC is admitted with 9 episodes of bloody diarrhea per day. There is no improvement by day 3 of IV steroid treatment, and C. difficile testing is NAAT-positive but toxin-negative. CRP is elevated, with no toxic megacolon.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you interpret colonization, infection, and a UC flare in this setting?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How would you determine the timing of CDI treatment, CMV evaluation, rescue therapy, and surgical consultation?"
+        }
+      ],
+      "title": "Gastroenterology - Severe UC and Discordant C. difficile Test Results"
+    },
+    {
+      "specialtyId": "nephro",
+      "vignette": "A patient taking a thiazide with reduced oral intake has Na of 112 mmol/L and concomitant hypokalemia. Mental status improves after initial treatment, but Na rises to 121 within 8 hours, with sudden large-volume dilute urine output.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Is simply stopping IV fluids sufficient? What is the risk of overcorrection, are desmopressin and therapeutic relowering needed, and what monitoring plan is appropriate?"
+        }
+      ],
+      "title": "Nephrology - Hyponatremia Correcting Faster Than Expected"
+    },
+    {
+      "specialtyId": "nephro",
+      "vignette": "During recovery from sepsis, a patient has creatinine of 5.2 mg/dL and persistent oliguria. K is 5.3 mmol/L and pH is 7.30. Oxygenation is maintained, with no progressive pulmonary edema or uremic symptoms.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Should renal replacement therapy begin now, or should the patient be observed? What conditions require immediate initiation, and what parameters should be reassessed during observation?"
+        }
+      ],
+      "title": "Nephrology - Does a High Creatinine Alone Require Immediate Dialysis?"
+    },
+    {
+      "specialtyId": "nephro",
+      "vignette": "A patient receiving a β-lactam antibiotic and a PPI develops AKI. There is pyuria, but the culture is negative, with no rash or peripheral eosinophilia. The infection is improving.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you distinguish AIN from ATN?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How would you decide whether and when to discontinue the causative drug, perform a kidney biopsy, and start corticosteroids?"
+        }
+      ],
+      "title": "Nephrology - AKI During Antibiotic Treatment"
+    },
+    {
+      "specialtyId": "endo",
+      "vignette": "A patient with T2DM taking empagliflozin develops nausea, abdominal pain, and tachypnea after perioperative fasting. Glucose is 186 mg/dL, pH 7.23, and HCO₃ 12 mmol/L, with an elevated anion gap and increased β-hydroxybutyrate.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you distinguish starvation ketosis from SGLT2-related DKA, and what treatment is needed even when blood glucose is not high?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "In this patient with suspected SGLT2-related DKA, how would you decide on discontinuing the SGLT2 inhibitor and potentially resuming it in the future?"
+        }
+      ],
+      "title": "Endocrinology - Postoperative Acidosis Without Marked Hyperglycemia"
+    },
+    {
+      "specialtyId": "endo",
+      "vignette": "A patient with HFrEF taking amiodarone for a ventricular arrhythmia has weight loss and tachycardia, with suppressed TSH and elevated free T4. Thyroid nodules are present, but there is no clear increase in Doppler blood flow.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you assess the type of amiodarone-induced thyrotoxicosis and the possibility of a mixed form?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How would you choose treatment and weigh the benefits of stopping amiodarone against the risk of arrhythmia?"
+        }
+      ],
+      "title": "Endocrinology - Thyrotoxicosis During Amiodarone Use"
+    },
+    {
+      "specialtyId": "endo",
+      "vignette": "A patient recently stopped prednisone after taking it for several months. During an infectious illness, the patient develops vomiting, hypotension, and hyponatremia. K is normal, and cortisol test results are not yet available.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you evaluate sepsis and adrenal crisis together? Can you wait for the test results, and what does a normal K mean for your assessment?"
+        }
+      ],
+      "title": "Endocrinology - Infection and Hypotension After Steroid Discontinuation"
+    },
+    {
+      "specialtyId": "id",
+      "vignette": "MSSA is detected in 1 of 4 blood culture bottles. The fever has resolved, and TTE shows no vegetation. The patient has a long-term indwelling vascular catheter.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Can MSSA detected in a blood culture be considered contamination? How would you proceed with repeat blood cultures, catheter removal, TEE, and evaluation for metastatic infection?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How would you determine the duration of treatment for this patient's MSSA bacteremia?"
+        }
+      ],
+      "title": "Infectious Diseases - S. aureus Growing in Only One Bottle"
+    },
+    {
+      "specialtyId": "id",
+      "vignette": "A patient has ESBL-producing E. coli bacteremia associated with pyelonephritis. The organism is reported as susceptible to piperacillin–tazobactam, and the patient is improving after empiric treatment.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Should the current antibiotic be continued or changed? How would you account for the distinction between urinary tract infection and bacteremia, and the limitations of susceptibility testing?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "Under what conditions can this patient with ESBL-producing E. coli bacteremia be switched to oral antibiotics?"
+        }
+      ],
+      "title": "Infectious Diseases - ESBL Bacteremia: When Susceptibility Results and Clinical Choices Differ"
+    },
+    {
+      "specialtyId": "id",
+      "vignette": "A patient has fever, flank pain, and pyuria, with CT confirming a ureteral stone and hydronephrosis. After antibiotics, the fever resolves and blood pressure is stable.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Can drainage be delayed on the basis of clinical improvement alone? How would you determine source control for the infected obstruction, the drainage method, and the timing of stone removal?"
+        }
+      ],
+      "title": "Infectious Diseases - An Obstructive Urinary Tract Infection Improving With Antibiotics"
+    },
+    {
+      "specialtyId": "fm",
+      "vignette": "A 66-year-old man has CKD and a chronic inflammatory disease. Hb is 9.8 g/dL, MCV 80 fL, ferritin 65 ng/mL, and TSAT 8%, with elevated CRP. FIT is negative, and there are no prominent gastrointestinal symptoms.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you distinguish iron deficiency, anemia of inflammation, and CKD-related anemia?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "Can gastrointestinal evaluation be omitted on the basis of a negative FIT or ferritin alone, and how would you prioritize testing and treatment?"
+        }
+      ],
+      "title": "Family Medicine - Anemia With Ferritin in the Normal Range"
+    },
+    {
+      "specialtyId": "fm",
+      "vignette": "BP is 164/96 mmHg despite 3 medications. K is 3.0 mmol/L. ARR is elevated while the patient is taking a β-blocker, an ARB, and a thiazide, and there is also an incidentally detected 1.2 cm adrenal nodule.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Can these test results immediately confirm primary aldosteronism? How would you account for hypokalemia and medication effects, and sequence repeat testing, confirmatory testing, and subtype evaluation?"
+        }
+      ],
+      "title": "Family Medicine - Resistant Hypertension and a ‘Positive’ ARR"
+    },
+    {
+      "specialtyId": "fm",
+      "vignette": "A recent lumbar MRI obtained for low back pain shows only mild degenerative changes. Pain and difficulty walking subsequently progress, and low-grade fever and elevated inflammatory markers are identified.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Can the existing imaging findings explain the course? What further neurological evaluation is needed, what areas should be imaged, and what are the criteria for urgent referral?"
+        }
+      ],
+      "title": "Family Medicine - A Disc Problem on MRI, but the Pain Is Worsening"
+    },
+    {
+      "specialtyId": "general",
+      "vignette": "An older hospitalized patient develops acute confusion. There is pyuria and a positive urine culture, but no urinary symptoms, fever, or hemodynamic instability. A sleeping medication was recently added, and the patient has constipation and reduced oral intake.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Should this be treated as a UTI with antibiotics? How would you evaluate the possibility of asymptomatic bacteriuria and other causes of delirium?"
+        }
+      ],
+      "title": "General - Delirium and a Positive Urine Culture"
+    },
+    {
+      "specialtyId": "general",
+      "vignette": "A patient with HFrEF and CKD is admitted with infection and hypotension. MAP remains low after initial fluids, but lung B-lines and oxygen requirements increase.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Should additional fluids or vasoconstrictors take priority? How would you reassess the patient while distinguishing fluid responsiveness from fluid tolerance?"
+        }
+      ],
+      "title": "General - Can More Fluids Be Given in Sepsis?"
+    },
+    {
+      "specialtyId": "surg",
+      "vignette": "Abdominal pain persists despite repeated analgesics after a relatively straightforward laparoscopic procedure. The initial abdominal examination is unremarkable, but tachycardia, abdominal distension, and low-grade fever subsequently develop.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Should pain control be intensified with continued observation, or should complications such as bowel injury be investigated? What changes in the clinical course should trigger imaging and assessment for reoperation?"
+        }
+      ],
+      "title": "Surgery - ‘More Severe Than Expected’ Pain After Laparoscopic Surgery"
+    },
+    {
+      "specialtyId": "surg",
+      "vignette": "A patient with a history of abdominal surgery develops SBO. CT shows a transition point but no clear evidence of ischemia or a closed loop. Pain improves somewhat after decompression, but drainage output is high and the obstruction persists.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you use conservative management and a water-soluble contrast challenge?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What criteria involving clinical deterioration, imaging, and elapsed time should determine a transition to surgery?"
+        }
+      ],
+      "title": "Surgery - When to End Conservative Management of Adhesive Bowel Obstruction"
+    },
+    {
+      "specialtyId": "surg",
+      "vignette": "A 78-year-old patient has COPD and CKD stage 3. The patient normally lives independently and currently has acute cholecystitis, but no shock or organ failure.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Which is appropriate: early cholecystectomy or percutaneous gallbladder drainage? How would you distinguish age and comorbidities from an actual inability to tolerate surgery?"
+        }
+      ],
+      "title": "Surgery - Acute Cholecystitis in an Older Patient: Surgery or Drainage?"
+    },
+    {
+      "specialtyId": "obgyn",
+      "vignette": "A patient who desires pregnancy has mild abdominal pain, with β-hCG rising from 2,100→2,600 IU/L over 48 hours. Transvaginal ultrasound shows neither a definite intrauterine nor ectopic pregnancy. The patient is hemodynamically stable.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "What is the next step: repeat testing and follow-up, intrauterine evaluation, or treatment for ectopic pregnancy? Is it appropriate to initiate irreversible treatment based solely on a single hCG threshold or a slow rise?"
+        }
+      ],
+      "title": "Obstetrics and Gynecology - Pregnancy of unknown location"
+    },
+    {
+      "specialtyId": "obgyn",
+      "vignette": "On postpartum day 4, a headache that initially improved when lying down is now persistent and accompanied by visual discomfort. BP is 156/98 mmHg, without clear proteinuria.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you evaluate post-dural puncture headache, postpartum preeclampsia/PRES, and cerebral venous thrombosis? What evaluation and emergency management are needed before a blood patch?"
+        }
+      ],
+      "title": "Obstetrics and Gynecology - Postpartum headache after an epidural"
+    },
+    {
+      "specialtyId": "obgyn",
+      "vignette": "PPROM is confirmed at 34 weeks and 4 days of gestation. There is no fever or uterine tenderness, fetal status is reassuring, and the GBS result is unknown.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "What are the benefits and risks of immediate delivery versus expectant management?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How would you approach infection surveillance, GBS prophylaxis, corticosteroid use, and the criteria for proceeding to delivery?"
+        }
+      ],
+      "title": "Obstetrics and Gynecology - Late-preterm PPROM"
+    },
+    {
+      "specialtyId": "gyn-onc",
+      "vignette": "A mass suspicious for ovarian cancer is accompanied by ascites and extensive peritoneal lesions. ECOG is 2 and albumin is 2.7 g/dL. CT alone does not clearly establish the feasibility of complete resection, and a tissue diagnosis has not yet been obtained.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Would you choose primary cytoreductive surgery or neoadjuvant chemotherapy? In what order would you obtain tissue and assess resectability and surgical risk?"
+        }
+      ],
+      "title": "Gynecologic Oncology - Initial treatment sequencing in advanced ovarian cancer"
+    },
+    {
+      "specialtyId": "gyn-onc",
+      "vignette": "A patient with recurrent ovarian cancer has vomiting and abdominal distension. CT shows multiple peritoneal lesions, two sites of obstruction, and ascites. There is no perforation or peritonitis, and further chemotherapy remains a possibility.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Would you choose surgery, endoscopic intervention, or decompression and medical treatment? How would you incorporate the location and number of obstructions, overall condition, and the potential for further chemotherapy?"
+        }
+      ],
+      "title": "Gynecologic Oncology - Bowel obstruction in recurrent ovarian cancer"
+    },
+    {
+      "specialtyId": "gyn-onc",
+      "vignette": "A 63-year-old woman with obesity and diabetes has recurrent postmenopausal bleeding. Ultrasound shows an endometrial thickness of 3 mm, and an office biopsy is limited by an insufficient specimen.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Is follow-up alone appropriate on the basis of a thin endometrium? What criteria guide the choice of further evaluation, such as repeat biopsy or hysteroscopy?"
+        }
+      ],
+      "title": "Gynecologic Oncology - Thin endometrium and recurrent bleeding"
+    },
+    {
+      "specialtyId": "peds",
+      "vignette": "A 45-day-old infant born at term has a temperature of 38.2°C. The infant is well-appearing and feeding well. Catheterized urine shows pyuria, while procalcitonin, CRP, and ANC are in the low-risk range. Reassessment the next day is feasible.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Are LP, hospitalization, and intravenous antibiotics all necessary? How would you combine age, inflammatory markers, urinalysis, and the feasibility of follow-up to determine the extent of evaluation?"
+        }
+      ],
+      "title": "Pediatrics - Positive UA in a well-appearing, well-feeding febrile infant"
+    },
+    {
+      "specialtyId": "peds",
+      "vignette": "A 3-year-old has had fever for 6 days. Conjunctival injection and lip changes are present, but not all typical Kawasaki findings. Adenovirus PCR is positive, with elevated CRP, hypoalbuminemia, and sterile pyuria. The initial echocardiogram is normal.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Do a positive viral test and a normal echocardiogram exclude incomplete Kawasaki disease? What further evaluation is needed, and what are the criteria for starting treatment?"
+        }
+      ],
+      "title": "Pediatrics - Persistent fever despite a positive adenovirus test"
+    },
+    {
+      "specialtyId": "neuro",
+      "vignette": "A patient presents within 90 minutes of symptom onset with mild aphasia and impaired fine motor function of the dominant hand, yielding an NIHSS score of 2. CT shows no hemorrhage, and CTA shows no LVO. The patient is not taking anticoagulants and has no other clear contraindications.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Would you exclude reperfusion therapy solely because the score is low? How would you distinguish disabling from nondisabling deficits and incorporate that assessment into treatment selection?"
+        }
+      ],
+      "title": "Neurology - Low NIHSS score but substantial impairment of daily function"
+    },
+    {
+      "specialtyId": "neuro",
+      "vignette": "A patient with CKD receiving cefepime has a generalized seizure, followed by persistent confusion and intermittent myoclonus for at least 45 minutes. Glucose and Na are normal, and CT shows no acute lesion.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you distinguish a postictal state, nonconvulsive status epilepticus, and drug-induced neurotoxicity? How would you prioritize urgent EEG, drug discontinuation, and additional antiseizure treatment?"
+        }
+      ],
+      "title": "Neurology - The seizure has stopped, but consciousness has not returned"
+    },
+    {
+      "specialtyId": "neuro",
+      "vignette": "A patient with myasthenia gravis develops dysphagia and a weak cough after a respiratory infection. SpO₂ is 97%, but FVC has declined over several hours and neck muscle strength is also worsening.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Are ICU care and securing the airway needed despite normal oxygen saturation? How would you assess respiratory mechanics, bulbar symptoms, and the clinical course?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "How would you choose between IVIG and plasma exchange for this patient's myasthenia gravis exacerbation?"
+        }
+      ],
+      "title": "Neurology - Myasthenia gravis exacerbation with normal SpO₂"
+    },
+    {
+      "specialtyId": "rheum",
+      "vignette": "A patient taking steroids develops acute knee pain and a low-grade fever. Synovial fluid WBC is 72,000/µL, urate crystals are present, and Gram stain is negative.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Is it appropriate to diagnose gout and intensify steroid treatment? What are the limitations of crystal detection and a negative Gram stain in excluding infection, and how would you decide on cultures, antibiotics, and drainage?"
+        }
+      ],
+      "title": "Rheumatology - Acute monoarthritis with crystals present"
+    },
+    {
+      "specialtyId": "rheum",
+      "vignette": "A patient with SLE has fever, new proteinuria, hematuria, and rising creatinine. Complement is low and anti-dsDNA is elevated, but cough and pulmonary infiltrates are also present, and culture results are pending.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you evaluate lupus nephritis and infection simultaneously? How would you sequence antimicrobial treatment, kidney biopsy, and intensified immunosuppression, and what are the risks of delay?"
+        }
+      ],
+      "title": "Rheumatology - SLE flare, infection, or both?"
+    },
+    {
+      "specialtyId": "rheum",
+      "vignette": "A patient is scheduled to receive rituximab for RA. HBsAg is negative, anti-HBc and anti-HBs are positive, HBV DNA is undetectable, and liver enzyme levels are normal.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Is follow-up testing alone sufficient because antibodies are present? How does HBV reactivation risk vary by drug, and is prophylactic antiviral treatment needed?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What is the plan for monitoring HBV reactivation after rituximab treatment ends?"
+        }
+      ],
+      "title": "Rheumatology - HBV antibodies in a patient scheduled for rituximab"
+    },
+    {
+      "specialtyId": "hemonc",
+      "vignette": "A patient has fever, confusion, thrombocytopenia, and hemolytic anemia. Schistocytes are present, LDH is elevated, and creatinine is 1.8 mg/dL. PT/aPTT are nearly normal, and ADAMTS13 results will take several days.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you assess the likelihood of TTP and decide whether to start treatment before confirmation? How appropriate are plasma exchange, immunotherapy, and platelet transfusion?"
+        }
+      ],
+      "title": "Hematology and Oncology - A patient with suspected TTP and DIC"
+    },
+    {
+      "specialtyId": "hemonc",
+      "vignette": "On day 6 of heparin exposure, the platelet count falls from 240,000→88,000/µL. There is no new thrombosis, and surgical-site bleeding was controlled the previous day. Infection is also present, so alternative causes are possible.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you integrate the 4Ts score with test results?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "While test results are pending, how would you decide on stopping heparin, selecting an alternative anticoagulant, and tailoring anticoagulation intensity to the bleeding risk?"
+        }
+      ],
+      "title": "Hematology and Oncology - Postoperative thrombocytopenia and bleeding risk"
+    },
+    {
+      "specialtyId": "hemonc",
+      "vignette": "A patient develops fever with an ANC of 180/µL after chemotherapy for a solid tumor. Blood pressure is stable and the MASCC score is in the low-risk range, but new right lower quadrant pain and diarrhea are present.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Is outpatient treatment appropriate based on the score alone? How would you evaluate for neutropenic enterocolitis and decide on imaging, hospitalization, and antimicrobial coverage?"
+        }
+      ],
+      "title": "Hematology and Oncology - Febrile neutropenia with a low-risk score but abdominal pain"
+    },
+    {
+      "specialtyId": "psych",
+      "vignette": "A patient on long-term lithium develops confusion and dysarthria. The lithium level is 1.5 mmol/L, with mild hypercalcemia. Polyuria and rising Na subsequently develop.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Is it appropriate to attribute the neurologic symptoms to another metabolic abnormality? How would you assess chronic lithium toxicity and nephrogenic DI, and what are the criteria for repeat testing, nephrology consultation, and evaluation for extracorporeal removal?"
+        }
+      ],
+      "title": "Psychiatry - Prominent neurologic symptoms with a slightly elevated lithium level"
+    },
+    {
+      "specialtyId": "psych",
+      "vignette": "A patient has been treated for recurrent depression. During the interview, the patient denies mania, but family members describe past periods lasting a few days with reduced sleep, excessive spending, and uncharacteristic confidence. Depression and agitation are currently present together.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you evaluate unipolar depression, the bipolar spectrum, and mixed features?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What history and treatment considerations are needed before intensifying antidepressant monotherapy?"
+        }
+      ],
+      "title": "Psychiatry - Recurrent depression and brief periods of increased activity"
+    },
+    {
+      "specialtyId": "nursing",
+      "vignette": "An older patient with a history of heart failure develops dyspnea and hypoxemia during or immediately after a transfusion. Bilateral pulmonary infiltrates and elevated blood pressure are present, without a clear fever.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "What should be stopped and reported immediately? What observations help distinguish TACO, TRALI, and other transfusion reactions, and what tests and interventions would you anticipate?"
+        }
+      ],
+      "title": "Nursing - Dyspnea immediately after transfusion"
+    },
+    {
+      "specialtyId": "pharm",
+      "vignette": "A patient receiving high-dose methotrexate shows delayed decline in methotrexate levels and elevated liver enzymes after concomitant ciprofloxacin and vancomycin. Changes in kidney function also need evaluation.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "How would you review DDIs and other factors contributing to toxicity or delayed elimination?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "Which drugs should be stopped or replaced, how should drug levels and organ function be monitored, and what are the criteria for escalating rescue treatment?"
+        }
+      ],
+      "title": "Pharmacy - Delayed methotrexate elimination and concomitant antibiotics"
+    },
+    {
+      "specialtyId": "pharm",
+      "vignette": "A patient with MRSA pneumonia develops AKI during vancomycin treatment. A switch to linezolid is being considered, but the patient has been taking sertraline long term.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Should concomitant use be ruled out categorically? What would you recommend after considering the need for antimicrobial treatment, available alternatives, the effects of stopping the antidepressant, and monitoring for serotonin toxicity?"
+        }
+      ],
+      "title": "Pharmacy - Linezolid is needed, but the patient is taking an SSRI"
+    },
+    {
+      "specialtyId": "pharm",
+      "vignette": "A kidney transplant recipient taking tacrolimus is diagnosed with early COVID-19. Nirmatrelvir/ritonavir is being considered, but rapid drug-level testing is difficult to obtain over the weekend.",
+      "questions": [
+        {
+          "label": "Question",
+          "text": "Does the care setting allow safe management of the interaction between nirmatrelvir/ritonavir and tacrolimus in this patient? How would you proceed with alternative antiviral treatment and consultation with the transplant team?"
+        },
+        {
+          "label": "Follow-up Question",
+          "text": "What monitoring for the tacrolimus interaction is needed even after nirmatrelvir/ritonavir treatment ends?"
+        }
+      ],
+      "title": "Pharmacy - COVID-19 treatment in a patient taking tacrolimus"
+    }
+  ]
+}
